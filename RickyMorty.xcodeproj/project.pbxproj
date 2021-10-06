@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FF6C0D407926005805CF60 /* Pods_RickyMorty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE40BB119CF333DBCCB19892 /* Pods_RickyMorty.framework */; };
 		E16FF9CF270E2641003EF046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9CE270E2641003EF046 /* AppDelegate.swift */; };
 		E16FF9D1270E2641003EF046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9D0270E2641003EF046 /* SceneDelegate.swift */; };
 		E16FF9D3270E2641003EF046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9D2270E2641003EF046 /* ViewController.swift */; };
@@ -14,9 +15,17 @@
 		E16FF9D8270E2642003EF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D7270E2642003EF046 /* Assets.xcassets */; };
 		E16FF9DB270E2642003EF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D9270E2642003EF046 /* LaunchScreen.storyboard */; };
 		E16FF9EA270E2797003EF046 /* RickyMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */; };
+		E16FF9ED270E2DB6003EF046 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E16FF9EC270E2DB6003EF046 /* SnapKit */; };
+		E16FF9EF270E44B5003EF046 /* RickyMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9EE270E44B5003EF046 /* RickyMortyService.swift */; };
+		E16FF9F1270E44CF003EF046 /* RickyMortyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9F0270E44CF003EF046 /* RickyMortyModel.swift */; };
+		E16FF9F4270E4920003EF046 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E16FF9F3270E4920003EF046 /* Alamofire */; };
+		E16FF9F7270E4947003EF046 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = E16FF9F6270E4947003EF046 /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DCE1483D7EA822A8F26FF63 /* Pods-RickyMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickyMorty.release.xcconfig"; path = "Target Support Files/Pods-RickyMorty/Pods-RickyMorty.release.xcconfig"; sourceTree = "<group>"; };
+		BF8A5FDFA5474752E54F614E /* Pods-RickyMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickyMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickyMorty/Pods-RickyMorty.debug.xcconfig"; sourceTree = "<group>"; };
+		DE40BB119CF333DBCCB19892 /* Pods_RickyMorty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickyMorty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16FF9CB270E2641003EF046 /* RickyMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickyMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16FF9CE270E2641003EF046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16FF9D0270E2641003EF046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,8 @@
 		E16FF9DA270E2642003EF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16FF9DC270E2642003EF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewController.swift; sourceTree = "<group>"; };
+		E16FF9EE270E44B5003EF046 /* RickyMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyService.swift; sourceTree = "<group>"; };
+		E16FF9F0270E44CF003EF046 /* RickyMortyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +44,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FF9ED270E2DB6003EF046 /* SnapKit in Frameworks */,
+				E16FF9F4270E4920003EF046 /* Alamofire in Frameworks */,
+				E16FF9F7270E4947003EF046 /* AlamofireImage in Frameworks */,
+				06FF6C0D407926005805CF60 /* Pods_RickyMorty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236C539383163D7509EBBCF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8A5FDFA5474752E54F614E /* Pods-RickyMorty.debug.xcconfig */,
+				5DCE1483D7EA822A8F26FF63 /* Pods-RickyMorty.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99A3E6F9A23455777ACCCB59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE40BB119CF333DBCCB19892 /* Pods_RickyMorty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E16FF9C2270E2641003EF046 = {
 			isa = PBXGroup;
 			children = (
 				E16FF9CD270E2641003EF046 /* RickyMorty */,
 				E16FF9CC270E2641003EF046 /* Products */,
+				236C539383163D7509EBBCF7 /* Pods */,
+				99A3E6F9A23455777ACCCB59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +150,7 @@
 		E16FF9E7270E26A4003EF046 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E16FF9F0270E44CF003EF046 /* RickyMortyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,6 +158,7 @@
 		E16FF9E8270E26AD003EF046 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				E16FF9EE270E44B5003EF046 /* RickyMortyService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -133,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16FF9DF270E2642003EF046 /* Build configuration list for PBXNativeTarget "RickyMorty" */;
 			buildPhases = (
+				41FA8D79AFB1C67D18D289C2 /* [CP] Check Pods Manifest.lock */,
 				E16FF9C7270E2641003EF046 /* Sources */,
 				E16FF9C8270E2641003EF046 /* Frameworks */,
 				E16FF9C9270E2641003EF046 /* Resources */,
@@ -142,6 +180,11 @@
 			dependencies = (
 			);
 			name = RickyMorty;
+			packageProductDependencies = (
+				E16FF9EC270E2DB6003EF046 /* SnapKit */,
+				E16FF9F3270E4920003EF046 /* Alamofire */,
+				E16FF9F6270E4947003EF046 /* AlamofireImage */,
+			);
 			productName = RickyMorty;
 			productReference = E16FF9CB270E2641003EF046 /* RickyMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +213,11 @@
 				Base,
 			);
 			mainGroup = E16FF9C2270E2641003EF046;
+			packageReferences = (
+				E16FF9EB270E2DB5003EF046 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				E16FF9F2270E4920003EF046 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				E16FF9F5270E4947003EF046 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */,
+			);
 			productRefGroup = E16FF9CC270E2641003EF046 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,15 +240,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41FA8D79AFB1C67D18D289C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickyMorty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E16FF9C7270E2641003EF046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FF9F1270E44CF003EF046 /* RickyMortyModel.swift in Sources */,
 				E16FF9D3270E2641003EF046 /* ViewController.swift in Sources */,
 				E16FF9EA270E2797003EF046 /* RickyMortyViewController.swift in Sources */,
 				E16FF9CF270E2641003EF046 /* AppDelegate.swift in Sources */,
 				E16FF9D1270E2641003EF046 /* SceneDelegate.swift in Sources */,
+				E16FF9EF270E44B5003EF046 /* RickyMortyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +419,7 @@
 		};
 		E16FF9E0270E2642003EF046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A5FDFA5474752E54F614E /* Pods-RickyMorty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -371,6 +447,7 @@
 		};
 		E16FF9E1270E2642003EF046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCE1483D7EA822A8F26FF63 /* Pods-RickyMorty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +495,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E16FF9EB270E2DB5003EF046 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E16FF9F2270E4920003EF046 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E16FF9F5270E4947003EF046 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E16FF9EC270E2DB6003EF046 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16FF9EB270E2DB5003EF046 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			productName = SnapKit;
+		};
+		E16FF9F3270E4920003EF046 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16FF9F2270E4920003EF046 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			productName = Alamofire;
+		};
+		E16FF9F6270E4947003EF046 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16FF9F5270E4947003EF046 /* XCRemoteSwiftPackageReference "AlamofireImage.git" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E16FF9C3270E2641003EF046 /* Project object */;
 }
