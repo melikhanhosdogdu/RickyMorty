@@ -13,6 +13,7 @@
 		E16FF9D6270E2641003EF046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D4270E2641003EF046 /* Main.storyboard */; };
 		E16FF9D8270E2642003EF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D7270E2642003EF046 /* Assets.xcassets */; };
 		E16FF9DB270E2642003EF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D9270E2642003EF046 /* LaunchScreen.storyboard */; };
+		E16FF9EA270E2797003EF046 /* RickyMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E16FF9D7270E2642003EF046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16FF9DA270E2642003EF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16FF9DC270E2642003EF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,72 @@
 		E16FF9CD270E2641003EF046 /* RickyMorty */ = {
 			isa = PBXGroup;
 			children = (
-				E16FF9CE270E2641003EF046 /* AppDelegate.swift */,
-				E16FF9D0270E2641003EF046 /* SceneDelegate.swift */,
-				E16FF9D2270E2641003EF046 /* ViewController.swift */,
-				E16FF9D4270E2641003EF046 /* Main.storyboard */,
-				E16FF9D7270E2642003EF046 /* Assets.xcassets */,
+				E16FF9E3270E2669003EF046 /* Features */,
+				E16FF9E2270E264F003EF046 /* Core */,
 				E16FF9D9270E2642003EF046 /* LaunchScreen.storyboard */,
 				E16FF9DC270E2642003EF046 /* Info.plist */,
 			);
 			path = RickyMorty;
+			sourceTree = "<group>";
+		};
+		E16FF9E2270E264F003EF046 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E16FF9D4270E2641003EF046 /* Main.storyboard */,
+				E16FF9D7270E2642003EF046 /* Assets.xcassets */,
+				E16FF9D2270E2641003EF046 /* ViewController.swift */,
+				E16FF9D0270E2641003EF046 /* SceneDelegate.swift */,
+				E16FF9CE270E2641003EF046 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E16FF9E3270E2669003EF046 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E16FF9E4270E2679003EF046 /* RickyMorty */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E16FF9E4270E2679003EF046 /* RickyMorty */ = {
+			isa = PBXGroup;
+			children = (
+				E16FF9E8270E26AD003EF046 /* Service */,
+				E16FF9E7270E26A4003EF046 /* Model */,
+				E16FF9E6270E268A003EF046 /* ViewModel */,
+				E16FF9E5270E2684003EF046 /* View */,
+			);
+			path = RickyMorty;
+			sourceTree = "<group>";
+		};
+		E16FF9E5270E2684003EF046 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16FF9E6270E268A003EF046 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E16FF9E7270E26A4003EF046 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E16FF9E8270E26AD003EF046 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16FF9D3270E2641003EF046 /* ViewController.swift in Sources */,
+				E16FF9EA270E2797003EF046 /* RickyMortyViewController.swift in Sources */,
 				E16FF9CF270E2641003EF046 /* AppDelegate.swift in Sources */,
 				E16FF9D1270E2641003EF046 /* SceneDelegate.swift in Sources */,
 			);
