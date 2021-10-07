@@ -110,7 +110,7 @@ extension RickyMortyViewController {
         indicator.snp.makeConstraints { make in
             make.height.equalTo(labelTitle)
             make.right.equalTo(labelTitle).offset(-5)
-            make.top.equalTo(labelTitle)
+            make.top.equalTo(labelTitle).offset(10)
         }
     }
 }

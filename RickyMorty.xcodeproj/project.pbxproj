@@ -14,7 +14,7 @@
 		E16FF9D1270E2641003EF046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9D0270E2641003EF046 /* SceneDelegate.swift */; };
 		E16FF9D3270E2641003EF046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9D2270E2641003EF046 /* ViewController.swift */; };
 		E16FF9D6270E2641003EF046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D4270E2641003EF046 /* Main.storyboard */; };
-		E16FF9D8270E2642003EF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D7270E2642003EF046 /* Assets.xcassets */; };
+		E16FF9D8270E2642003EF046 /* Screenshot.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D7270E2642003EF046 /* Screenshot.xcassets */; };
 		E16FF9DB270E2642003EF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16FF9D9270E2642003EF046 /* LaunchScreen.storyboard */; };
 		E16FF9EA270E2797003EF046 /* RickyMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */; };
 		E16FF9ED270E2DB6003EF046 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E16FF9EC270E2DB6003EF046 /* SnapKit */; };
@@ -35,7 +35,7 @@
 		E16FF9D0270E2641003EF046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E16FF9D2270E2641003EF046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E16FF9D5270E2641003EF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E16FF9D7270E2642003EF046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16FF9D7270E2642003EF046 /* Screenshot.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Screenshot.xcassets; sourceTree = "<group>"; };
 		E16FF9DA270E2642003EF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16FF9DC270E2642003EF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16FF9E9270E2797003EF046 /* RickyMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				E16FF9D4270E2641003EF046 /* Main.storyboard */,
-				E16FF9D7270E2642003EF046 /* Assets.xcassets */,
+				E16FF9D7270E2642003EF046 /* Screenshot.xcassets */,
 				E16FF9D2270E2641003EF046 /* ViewController.swift */,
 				E16FF9D0270E2641003EF046 /* SceneDelegate.swift */,
 				E16FF9CE270E2641003EF046 /* AppDelegate.swift */,
@@ -246,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16FF9DB270E2642003EF046 /* LaunchScreen.storyboard in Resources */,
-				E16FF9D8270E2642003EF046 /* Assets.xcassets in Resources */,
+				E16FF9D8270E2642003EF046 /* Screenshot.xcassets in Resources */,
 				E16FF9D6270E2641003EF046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

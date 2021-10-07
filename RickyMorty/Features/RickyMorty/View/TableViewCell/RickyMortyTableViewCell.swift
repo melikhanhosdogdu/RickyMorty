@@ -26,7 +26,7 @@ class RickyMortyTableViewCell: UITableViewCell {
     }
     
     required init?(coder: NSCoder) {
-        fatalError(" ")
+        fatalError("fatal error")
     }
     
     private func configure () {
@@ -48,7 +48,7 @@ class RickyMortyTableViewCell: UITableViewCell {
             
         }
         customDesciription.snp.makeConstraints { make in
-            make.top.equalTo(title.snp.top).offset(10)
+            make.top.equalTo(title.snp.bottom).offset(10)
             make.right.left.equalTo(title)
             
         }
